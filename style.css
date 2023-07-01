@@ -122,6 +122,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.logo .trix1{
+    width: 150px;
+  }
+
+
 body { overflow-x: hidden; }
 
 body.active { overflow-y: hidden; }
@@ -1428,3 +1433,9 @@ body{
         height: 350px;
     }
   }
+
+@media (min-width: 322px){
+.logo .trix1{
+    width: 150px;
+  }
+}
